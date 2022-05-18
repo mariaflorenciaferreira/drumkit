@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    background: url('./img/drums.jpg');
+    background-size: cover;
+}
+
+.keys{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.key{
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 10rem;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    transition: all 0.7 ease;
+
+}
