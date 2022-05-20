@@ -9,49 +9,62 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <main>  
         <div class="keys">
-            <div data-key="65" class="key">
+            <div id="a" class="key" onClick="clickHandler('a')">
                 <kbd>A</kbd>
                 <p class="sound">clap</p>
             </div>
-            <div data-key="83" class="key">
+            <div id="s" class="key"  onClick="clickHandler('s')">
                 <kbd>S</kbd>
                 <p class="sound">hihat</p>
             </div>
-            <div data-key="68" class="key">
+            <div id="d" class="key" onClick="clickHandler('d')">
                 <kbd>D</kbd>
                 <p class="sound">kick</p>
             </div>
-            <div data-key="71" class="key">
+            <div id="f" class="key" onClick="clickHandler('f')">
                 <kbd>F</kbd>
                 <p class="sound">openhat</p>
             </div>
-            <div data-key="83"  class="key">
+            <div id="g"  class="key" onClick="clickHandler('g')">
                 <kbd>G</kbd>
                 <p class="sound">boom</p>
             </div>
-            <div data-key="72" class="key">
+            <div id="h" class="key" onClick="clickHandler('h')">
                 <kbd>H</kbd>
                 <p class="sound">ride</p>
             </div>
-            <div  data-key="74" class="key">
+            <div  id="j" class="key" onClick="clickHandler('j')">
                 <kbd>J</kbd>
                 <p class="sound">snare</p>
             </div>
-            <div data-key="75" class="key">
+            <div id="k" class="key" onClick="clickHandler('k')">
                 <kbd>K</kbd>
                 <p class="sound">tom</p>
             </div>
-            <div data-key="76" class="key">
+            <div id="l" class="key" onClick="clickHandler('l')">
                 <kbd>L</kbd>
-                <p class="sound">Link</p>
+                <p class="sound">tink</p>
             </div>
         </div>
     </main>
+
+    
+    <audio data-key="a" src="./audio/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+    <audio data-key="s" src="./audio/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio data-key="d" src="./audio/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio data-key="f" src="./audio/01 - JavaScript Drum Kit_sounds_openhat.wav"></audio>
+    <audio data-key="g" src="./audio/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio data-key="h" src="./audio/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio data-key="j" src="./audio/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio data-key="k" src="./audio/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+    <audio data-key="l" src="./audio/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>

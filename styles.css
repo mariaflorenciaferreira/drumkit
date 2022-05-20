@@ -8,7 +8,7 @@ html{
     font-size: 10px;
     background: url('./img/drums.jpg');
     background-size: cover;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Slabo 13px', serif;
 }
 
 .keys{
@@ -41,8 +41,13 @@ kbd{
 .sound{
     color: #ffc600;
     font-size: 1.2rem;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     text-transform: uppercase;
-
-
 }
+
+.playing{
+    scale:(1.1);
+    border-color:  #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
